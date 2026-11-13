@@ -1,0 +1,270 @@
+{
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "precision": "float64",
+    "threads": 1
+  },
+  "quadratic": {
+    "delta": 22.43882306518587,
+    "L": 10.0,
+    "m": 24,
+    "n": 12,
+    "records": [
+      {
+        "T": 100,
+        "eta": 0.06115393563947986,
+        "average_nuclear_gradient": 5.807941524209394,
+        "theorem_bound": 7.3384722767375825,
+        "final_loss": 0.03448460521866054,
+        "max_descent_violation": -0.08714293262119946
+      },
+      {
+        "T": 400,
+        "eta": 0.03057696781973993,
+        "average_nuclear_gradient": 2.931742890862048,
+        "theorem_bound": 3.6692361383687913,
+        "final_loss": 0.007989066301697378,
+        "max_descent_violation": -0.021785733155299813
+      },
+      {
+        "T": 1600,
+        "eta": 0.015288483909869964,
+        "average_nuclear_gradient": 1.4725239029627246,
+        "theorem_bound": 1.8346180691843956,
+        "final_loss": 0.0023495221461978244,
+        "max_descent_violation": -0.005446433288824953
+      },
+      {
+        "T": 6400,
+        "eta": 0.007644241954934982,
+        "average_nuclear_gradient": 0.7378075074658635,
+        "theorem_bound": 0.9173090345921978,
+        "final_loss": 0.000491014820663455,
+        "max_descent_violation": -0.0013616083222062376
+      }
+    ]
+  },
+  "orthogonalization": [
+    {
+      "polynomial": "NS5-polynomial",
+      "steps": 1,
+      "relative_F_error": 0.843900704727421,
+      "operator_error": 0.9997103473413896,
+      "minimum_singular": 0.0002896526586104409,
+      "maximum_singular": 1.1571462575266558
+    },
+    {
+      "polynomial": "Classical-cubic",
+      "steps": 1,
+      "relative_F_error": 0.8919424647465922,
+      "operator_error": 0.9998738629725216,
+      "minimum_singular": 0.00012613702747876966,
+      "maximum_singular": 0.9640503579014368
+    },
+    {
+      "polynomial": "NS5-polynomial",
+      "steps": 2,
+      "relative_F_error": 0.7686742316102033,
+      "operator_error": 0.9990022915334558,
+      "minimum_singular": 0.0009977084665441648,
+      "maximum_singular": 1.1503044080652938
+    },
+    {
+      "polynomial": "Classical-cubic",
+      "steps": 2,
+      "relative_F_error": 0.8693453202092143,
+      "operator_error": 0.9998107944597852,
+      "minimum_singular": 0.00018920554021471846,
+      "maximum_singular": 0.998084665090593
+    },
+    {
+      "polynomial": "NS5-polynomial",
+      "steps": 3,
+      "relative_F_error": 0.6850228946001833,
+      "operator_error": 0.9965633979292362,
+      "minimum_singular": 0.003436602070764344,
+      "maximum_singular": 1.153036604617688
+    },
+    {
+      "polynomial": "Classical-cubic",
+      "steps": 3,
+      "relative_F_error": 0.8456900934568269,
+      "operator_error": 0.9997161916930644,
+      "minimum_singular": 0.0002838083069354158,
+      "maximum_singular": 0.9999945007514877
+    },
+    {
+      "polynomial": "NS5-polynomial",
+      "steps": 5,
+      "relative_F_error": 0.48400727554319023,
+      "operator_error": 0.9592347458995087,
+      "minimum_singular": 0.04076525410049166,
+      "maximum_singular": 1.1598542599933872
+    },
+    {
+      "polynomial": "Classical-cubic",
+      "steps": 5,
+      "relative_F_error": 0.7956989844404531,
+      "operator_error": 0.9993614313651163,
+      "minimum_singular": 0.0006385686348835475,
+      "maximum_singular": 1.0000000000000002
+    },
+    {
+      "polynomial": "NS5-polynomial",
+      "steps": 8,
+      "relative_F_error": 0.2040814635348488,
+      "operator_error": 0.3102092994825894,
+      "minimum_singular": 0.689790700517411,
+      "maximum_singular": 1.169386127603625
+    },
+    {
+      "polynomial": "Classical-cubic",
+      "steps": 8,
+      "relative_F_error": 0.7138952508894414,
+      "operator_error": 0.9978448332923107,
+      "minimum_singular": 0.002155166707689545,
+      "maximum_singular": 0.9999999999999998
+    },
+    {
+      "polynomial": "NS5-polynomial",
+      "steps": 12,
+      "relative_F_error": 0.21122464740268648,
+      "operator_error": 0.31583347101443604,
+      "minimum_singular": 0.6841665289855642,
+      "maximum_singular": 1.134346647311674
+    },
+    {
+      "polynomial": "Classical-cubic",
+      "steps": 12,
+      "relative_F_error": 0.5880977102318699,
+      "operator_error": 0.9890898013626883,
+      "minimum_singular": 0.010910198637311817,
+      "maximum_singular": 0.9999999999999998
+    },
+    {
+      "polynomial": "NS5-polynomial",
+      "steps": 20,
+      "relative_F_error": 0.20761523922430283,
+      "operator_error": 0.3181604734898124,
+      "minimum_singular": 0.6818395265101876,
+      "maximum_singular": 1.1343430306581521
+    },
+    {
+      "polynomial": "Classical-cubic",
+      "steps": 20,
+      "relative_F_error": 0.23058050608207828,
+      "operator_error": 0.7260945844203964,
+      "minimum_singular": 0.27390541557960385,
+      "maximum_singular": 1.0000000000000002
+    },
+    {
+      "polynomial": "NS5-polynomial",
+      "steps": 30,
+      "relative_F_error": 0.22340476534200557,
+      "operator_error": 0.31808242246083984,
+      "minimum_singular": 0.68191757753916,
+      "maximum_singular": 1.1343192524364267
+    },
+    {
+      "polynomial": "Classical-cubic",
+      "steps": 30,
+      "relative_F_error": 1.0681386943164955e-13,
+      "operator_error": 3.335901312300616e-13,
+      "minimum_singular": 0.9999999999999998,
+      "maximum_singular": 1.0000000000000007
+    }
+  ],
+  "predictor": {
+    "selected_lr": {
+      "AdamW": 1.0,
+      "Muon-NS5": 1.215,
+      "Muon-SVD": 1.215
+    },
+    "summary": {
+      "AdamW": {
+        "train_ce": {
+          "mean": 0.5734775614487633,
+          "sd": 0.00044106364036862326
+        },
+        "validation_ce": {
+          "mean": 1.4371058902631282,
+          "sd": 0.0804840226681819
+        },
+        "test_ce": {
+          "mean": 1.7164506204975225,
+          "sd": 0.04780349184919087
+        },
+        "test_accuracy": {
+          "mean": 0.5729166666666666,
+          "sd": 0.04773516348912333
+        },
+        "seconds": {
+          "mean": 0.1323843333326901,
+          "sd": 0.0004617401949819124
+        },
+        "weight_norm": {
+          "mean": 139.82054749876258,
+          "sd": 3.2263026524305274
+        }
+      },
+      "Muon-NS5": {
+        "train_ce": {
+          "mean": 0.5782145645801958,
+          "sd": 0.0014736415821688278
+        },
+        "validation_ce": {
+          "mean": 1.8116536873405995,
+          "sd": 0.1932154445845283
+        },
+        "test_ce": {
+          "mean": 1.9393660731707556,
+          "sd": 0.26222018040780304
+        },
+        "test_accuracy": {
+          "mean": 0.5416666666666666,
+          "sd": 0.06505206248331666
+        },
+        "seconds": {
+          "mean": 0.19238953333115205,
+          "sd": 0.003955128383392053
+        },
+        "weight_norm": {
+          "mean": 206.713204084308,
+          "sd": 2.376416005380237
+        }
+      },
+      "Muon-SVD": {
+        "train_ce": {
+          "mean": 0.5788117255577728,
+          "sd": 0.0013486767794550765
+        },
+        "validation_ce": {
+          "mean": 1.7057958624804097,
+          "sd": 0.33143376601936114
+        },
+        "test_ce": {
+          "mean": 1.8644569323100615,
+          "sd": 0.08538836603081382
+        },
+        "test_accuracy": {
+          "mean": 0.46875,
+          "sd": 0.05412658773652741
+        },
+        "seconds": {
+          "mean": 0.2724434000022787,
+          "sd": 0.0009636242018664072
+        },
+        "weight_norm": {
+          "mean": 233.37649495775716,
+          "sd": 1.0340238564921438
+        }
+      }
+    },
+    "parameters": 3152,
+    "irreducible_entropy": 0.5650088611651813
+  }
+}

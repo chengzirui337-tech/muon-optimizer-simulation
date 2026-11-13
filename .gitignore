@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.runtime/
+.env
+*.log
+*.aux
+*.out
+figures/
+results/*_table.tex
+.DS_Store
+Thumbs.db
